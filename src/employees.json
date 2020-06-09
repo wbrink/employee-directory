@@ -1,37 +1,37 @@
 [
   {
     "name": "Billy",
-    "Department": "Accounting",
-    "Salary": 80000
+    "department": "Accounting",
+    "salary": 80000
   },
   {
     "name": "Madison",
-    "Department": "Human Resources",
-    "Salary": 75000
+    "department": "Human Resources",
+    "salary": 75000
   },
   {
     "name": "Elaine",
-    "Department": "Manager",
-    "Salary": 90000
+    "department": "Manager",
+    "salary": 90000
   },
   {
     "name": "Jerry",
-    "Department": "Engineer",
-    "Salary": 85000
+    "department": "Engineer",
+    "salary": 85000
   },
   {
     "name": "Kramer",
-    "Department": "Marketing",
-    "Salary": 60000
+    "department": "Marketing",
+    "salary": 60000
   },
   {
     "name": "Art",
-    "Department": "Imports/Exports",
-    "Salary": 60000
+    "department": "Imports/Exports",
+    "salary": 60000
   },
   {
     "name": "George",
-    "Department": "Architect",
-    "Salary": 90000
+    "department": "Architect",
+    "salary": 90000
   }
 ]

@@ -6,10 +6,15 @@ export default function Search(props) {
 
   const {search, setSearch} = useContext(SearchContext);
 
+  const handleChange = (e) => {
+    console.log(e.target.value);
+    setSearch(e.target.value);
+  }
+  
   return (
     <div className="form">
       <label htmlFor="search">Search Here</label>
-      <input type="text" id="search"/>
+      <input type="text" id="search" onChange={handleChange}/>
     </div>
     
   )
