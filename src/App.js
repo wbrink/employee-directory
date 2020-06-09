@@ -1,25 +1,26 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {useState, useEffect, useContext, createContext} from 'react';
 import './App.css';
+import Search from './components/Search';
+import EmployeeList from './components/EmployeeList';
+import SearchContext from "./SearchContext";
 
 function App() {
+
+  const [search, setSearch] = useState("");
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <SearchContext.Provider value={{search, setSearch}}>
+      <div className="App">
+        <header>
+          <h1>Employee Directory</h1>
+        </header>
+
+        <Search />
+        <EmployeeList />
+      </div>
+
+    </SearchContext.Provider>
+    
   );
 }
 
