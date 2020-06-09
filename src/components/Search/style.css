@@ -1,0 +1,16 @@
+.form {
+  display: flex;
+  flex: 0 0 10vh;
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+  margin-right: 20px;
+  color: white;
+  margin-bottom: 4px;
+}
+
+input {
+  border-radius: 5px;
+}
