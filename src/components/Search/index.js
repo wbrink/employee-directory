@@ -13,7 +13,7 @@ export default function Search(props) {
   
   return (
     <div className="form">
-      <label htmlFor="search">Search Here</label>
+      <label htmlFor="search">Search Name</label>
       <input type="text" id="search" onChange={handleChange}/>
     </div>
     

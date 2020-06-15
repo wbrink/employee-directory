@@ -5,6 +5,11 @@
     "salary": 80000
   },
   {
+    "name": "Bobby",
+    "department": "Accounting",
+    "salary": 85000
+  },
+  {
     "name": "Madison",
     "department": "Human Resources",
     "salary": 75000

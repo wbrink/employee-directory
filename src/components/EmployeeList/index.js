@@ -1,6 +1,7 @@
 import React, {useContext, useState, useEffect} from "react";
 import SearchContext from "../../SearchContext";
 import data from "../../employees.json";
+import "./style.css";
 
 export default function EmployeeList(props) {
   
